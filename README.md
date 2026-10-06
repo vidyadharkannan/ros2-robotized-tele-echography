@@ -105,14 +105,6 @@ A virtual wall perpendicular to the Z-axis was implemented to evaluate the hapti
 </p>
 
 
-<p align="center">
-  <img src="images/virtual_wall.png" width="550">
-</p>
-
-<p align="center">
-  <em>Virtual wall used to evaluate Z-axis haptic force feedback.</em>
-</p>
-
 
 
 
@@ -151,6 +143,21 @@ The video below demonstrates the **haptic force-feedback response** during the v
 
 
 https://github.com/user-attachments/assets/4b85775f-1925-421b-b627-680153e07f2f
+
+
+#### Force Feedback Response
+
+The plot below shows the **Z-axis force response** generated during interaction with the virtual wall.
+
+<p align="center">
+  <img src="images/virtual_wall_force_response.png" width="650">
+</p>
+
+<p align="center">
+  <em>Z-axis force-feedback response during the virtual-wall experiment.</em>
+</p>
+
+
 
 
 ## Tools and Technologies
