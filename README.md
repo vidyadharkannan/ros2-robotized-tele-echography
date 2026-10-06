@@ -87,9 +87,14 @@ Forward kinematics and the robot Jacobian were computed using the **Kinematics a
 
 ## Haptic Force Feedback
 
-To close the bilateral teleoperation loop, a feedback wrench is sent from the robot side to the **Haption Virtuose 6D**, allowing the operator to perceive the interaction at the robot end-effector.
+To complete the bilateral teleoperation loop, a **restoring force is sent back to the Haption Virtuose 6D** through the `/in_virtuose_force` ROS 2 topic.
 
-The system supports **6-DoF force and torque feedback**, while the experimental testing focused mainly on **Z-axis force feedback** to represent contact with a surface.
+The feedback is generated from the difference between the commanded Haption pose and the actual Franka end-effector pose. The architecture supports **6-DoF force and torque feedback**, while the experimental testing focused mainly on the **Z-axis**.
+
+### Virtual Wall Test
+
+A virtual wall perpendicular to the Z-axis was implemented to evaluate the haptic feedback. When the robot reaches the virtual boundary, a restoring force is generated and transmitted to the Haption device, allowing the operator to feel resistance.
+
 
 
 
