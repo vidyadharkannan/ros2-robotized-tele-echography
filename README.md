@@ -143,7 +143,13 @@ The video below demonstrates the **haptic force-feedback response** during the v
 https://github.com/user-attachments/assets/4b85775f-1925-421b-b627-680153e07f2f
 
 
+## Tools and Technologies
 
+- **Robotics:** ROS 2 Humble, Franka Panda, Haption Virtuose 6D
+- **Programming:** C++, Python
+- **Control:** Cartesian Impedance Control, Bilateral Teleoperation, Haptic Force Feedback
+- **Kinematics:** KDL, Forward Kinematics, Jacobian Computation
+- **Simulation & Analysis:** Gazebo, RViz, RQT, ROS 2 Bag
 
 
 
