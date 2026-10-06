@@ -78,7 +78,11 @@ Forward kinematics and the robot Jacobian were computed using the **Kinematics a
 
 
 
+## Haptic Force Feedback
 
+To close the bilateral teleoperation loop, a feedback wrench is sent from the robot side to the **Haption Virtuose 6D**, allowing the operator to perceive the interaction at the robot end-effector.
+
+The system supports **6-DoF force and torque feedback**, while the experimental testing focused mainly on **Z-axis force feedback** to represent contact with a surface.
 
 
 
