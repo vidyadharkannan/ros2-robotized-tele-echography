@@ -4,7 +4,7 @@
 **2025**
 
 <p align="justify">
-This project was carried out as part of my **M1 Advanced Robotics programme (CORO-IMARO) at École Centrale de Nantes**. The project focused on developing a ROS 2-based bilateral teleoperation framework using a **Haption Virtuose 6D haptic interface** and a **Franka Emika Panda collaborative robot** for robotised tele-echography.
+This project was carried out as part of my M1 Advanced Robotics programme (CORO-IMARO) at École Centrale de Nantes. The project focused on developing a ROS 2-based bilateral teleoperation framework using a Haption Virtuose 6D haptic interface and a Franka Emika Panda collaborative robot for robotised tele-echography.
 </p>
 
 ## Why This Project?
