@@ -97,7 +97,7 @@ A virtual wall perpendicular to the Z-axis was implemented to evaluate the hapti
 
 
 <p align="center">
-  <img src="" width="550">
+  <img src="images/virtual_wall.png" width="550">
 </p>
 
 <p align="center">
