@@ -105,3 +105,50 @@ A virtual wall perpendicular to the Z-axis was implemented to evaluate the hapti
 </p>
 
 
+
+## Experimental Demonstrations
+
+### Bilateral Teleoperation
+
+The videos below demonstrate the teleoperation system in both **simulation and on the physical Franka Panda**. Motion of the **Haption Virtuose 6D** is transmitted through ROS 2 and used as the desired end-effector motion for the Cartesian impedance controller.
+
+#### Simulation
+
+The Haption Virtuose 6D is used to teleoperate the Franka Panda in simulation.
+
+
+https://github.com/user-attachments/assets/f77e8a96-4e3d-447e-ac4b-375fd11c3c76
+
+
+
+
+
+
+#### Real Robot
+
+The same teleoperation framework is demonstrated on the physical Franka Panda.
+
+
+
+
+https://github.com/user-attachments/assets/3957cb76-b110-428a-8dc5-0edb2b4d01ac
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
