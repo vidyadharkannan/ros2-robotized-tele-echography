@@ -96,6 +96,12 @@ The feedback is generated from the difference between the commanded Haption pose
 A virtual wall perpendicular to the Z-axis was implemented to evaluate the haptic feedback. When the robot reaches the virtual boundary, a restoring force is generated and transmitted to the Haption device, allowing the operator to feel resistance.
 
 
+<p align="center">
+  <img src="" width="550">
+</p>
 
+<p align="center">
+  <em>Virtual wall used to evaluate Z-axis haptic force feedback.</em>
+</p>
 
 
