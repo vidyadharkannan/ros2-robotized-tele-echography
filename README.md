@@ -39,5 +39,11 @@ The teleoperation system was developed in **ROS 2 Humble** and consists of two m
 
 The operator's 6-DoF pose is transmitted from the Virtuose to the Franka controller through ROS 2. In the opposite direction, force feedback is sent from the robot side to the Virtuose, forming a bilateral communication loop.
 
+<p align="center">
+  <img src="images/teleoperation_architecture.png" width="650">
+</p>
 
+<p align="center">
+  <em>ROS 2 bilateral communication architecture between the Haption Virtuose 6D and Franka Panda.</em>
+</p>
 
