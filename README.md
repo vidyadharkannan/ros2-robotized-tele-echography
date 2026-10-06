@@ -62,6 +62,21 @@ The communication pipeline is:
 The pose relay subscribes to `/out_virtuose_pose` and republishes the converted command on `/out_virtuose_pose_clean`. The Cartesian impedance controller then uses this pose as the desired end-effector command.
 
 
+## Cartesian Impedance Control
+
+The Franka Panda was controlled using a **Cartesian impedance controller implemented in C++** to provide compliant end-effector motion.
+
+The controller computes the Cartesian pose error between the commanded and current end-effector pose. A virtual spring-damper model generates the Cartesian wrench, which is converted into joint torques using the Jacobian transpose:
+
+\[
+\tau = J^T F
+\]
+
+Forward kinematics and the robot Jacobian were computed using **KDL**.
+
+
+
+
 
 
 
