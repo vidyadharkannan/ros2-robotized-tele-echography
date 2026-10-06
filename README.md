@@ -105,6 +105,16 @@ A virtual wall perpendicular to the Z-axis was implemented to evaluate the hapti
 </p>
 
 
+<p align="center">
+  <img src="images/virtual_wall.png" width="550">
+</p>
+
+<p align="center">
+  <em>Virtual wall used to evaluate Z-axis haptic force feedback.</em>
+</p>
+
+
+
 
 ## Experimental Demonstrations
 
