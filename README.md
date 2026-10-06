@@ -47,3 +47,25 @@ The operator's 6-DoF pose is transmitted from the Virtuose to the Franka control
   <em>ROS 2 bilateral communication architecture between the Haption Virtuose 6D and Franka Panda.</em>
 </p>
 
+
+
+## Haption-to-Franka Teleoperation
+
+The **Haption Virtuose 6D** is used to command the desired position and orientation of the Franka end-effector.
+
+The Virtuose publishes its pose through a device-specific ROS 2 message. A **Python pose relay node** was implemented to convert this data into the standard `geometry_msgs/msg/PoseStamped` format used by the robot controller.
+
+The communication pipeline is:
+
+`Virtuose 6D → Raw Pose → Python Pose Relay → PoseStamped → Cartesian Impedance Controller → Franka Panda`
+
+The pose relay subscribes to `/out_virtuose_pose` and republishes the converted command on `/out_virtuose_pose_clean`. The Cartesian impedance controller then uses this pose as the desired end-effector command.
+
+
+
+
+
+
+
+
+
