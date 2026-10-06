@@ -160,6 +160,22 @@ The plot below shows the **Z-axis force response** generated during interaction 
 
 
 
+## What Was Achieved
+
+- Developed a **ROS 2-based bilateral teleoperation framework** between the Haption Virtuose 6D and Franka Panda.
+- Implemented **Cartesian impedance control in C++** for compliant end-effector motion.
+- Used **KDL** for forward kinematics and Jacobian computation, with Cartesian wrenches mapped to joint torques using the Jacobian transpose.
+- Developed a **Python pose relay node** to interface the Haption pose data with the robot controller.
+- Implemented **haptic force feedback** and evaluated it using a Z-axis virtual wall.
+- Demonstrated the teleoperation framework in both **simulation and on the physical Franka Panda**.
+
+
+
+
+
+
+
+
 ## Tools and Technologies
 
 - **Robotics:** ROS 2 Humble, Franka Panda, Haption Virtuose 6D
