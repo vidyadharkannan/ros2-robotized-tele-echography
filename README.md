@@ -150,7 +150,7 @@ https://github.com/user-attachments/assets/4b85775f-1925-421b-b627-680153e07f2f
 The plot below shows the **Z-axis force response** generated during interaction with the virtual wall.
 
 <p align="center">
-  <img src="images/virtual_wall_force_response.png" width="650">
+  <img src="images/virtual_wall_force_feedback.png" width="650">
 </p>
 
 <p align="center">
