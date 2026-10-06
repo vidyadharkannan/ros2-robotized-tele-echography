@@ -26,3 +26,18 @@ The objective was to develop a **ROS 2-based bilateral teleoperation framework**
 2. The **Franka Emika Panda** acts as the slave robot and follows the commanded Cartesian motion.
 3. A **Cartesian impedance controller** provides compliant robot motion.
 4. Force feedback is transmitted back to the haptic device, closing the bilateral teleoperation loop.
+
+
+
+
+## System Architecture
+
+The teleoperation system was developed in **ROS 2 Humble** and consists of two main sides:
+
+- **Master side:** The Haption Virtuose 6D captures the operator's motion and provides haptic force feedback.
+- **Slave side:** The Franka Emika Panda follows the commanded motion using Cartesian impedance control.
+
+The operator's 6-DoF pose is transmitted from the Virtuose to the Franka controller through ROS 2. In the opposite direction, force feedback is sent from the robot side to the Virtuose, forming a bilateral communication loop.
+
+
+
