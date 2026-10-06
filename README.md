@@ -68,9 +68,12 @@ The Franka Panda was controlled using a **Cartesian impedance controller impleme
 
 The controller computes the Cartesian pose error between the commanded and current end-effector pose. A virtual spring-damper model generates the Cartesian wrench, which is converted into joint torques using the Jacobian transpose:
 
-\[
-\tau = J^T F
-\]
+The Cartesian wrench is converted into joint torques using the Jacobian transpose:
+
+**τ = JᵀF**
+
+where `J` is the robot Jacobian, `F` is the Cartesian wrench, and `τ` is the commanded joint torque.
+
 
 Forward kinematics and the robot Jacobian were computed using **KDL**.
 
