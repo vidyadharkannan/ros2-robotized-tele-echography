@@ -134,6 +134,18 @@ The same teleoperation framework is demonstrated on the physical Franka Panda.
 https://github.com/user-attachments/assets/3957cb76-b110-428a-8dc5-0edb2b4d01ac
 
 
+### Virtual Wall Force Feedback
+
+The video below demonstrates the **haptic force-feedback response** during the virtual-wall experiment. When the virtual boundary is reached, a restoring force is generated and transmitted to the Haption Virtuose 6D, allowing the operator to feel the constraint.
+
+
+
+https://github.com/user-attachments/assets/4b85775f-1925-421b-b627-680153e07f2f
+
+
+
+
+
 
 
 
